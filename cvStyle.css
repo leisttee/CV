@@ -1,3 +1,5 @@
+
+
 .profilePic{
     border-radius: 50%;
     width: 15%;
@@ -5,6 +7,39 @@
 }
 
 body{
-    background-color: rgb(43, 182, 192);
+    background-color: bisque;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.top-container{
+background-color: rgb(148, 238, 233);
+position: relative;
+margin: 0 20%;
+padding-top: 5%;
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+
+}
+
+.cloud1{
+width: 100px;
+position: absolute;
+right: 40px;
+top: 50px;
+}
+
+.cloud2{
+width: 100px;
+position: absolute;
+left: 60px;
+bottom: 50px;}
+
+.mountain{
+    width: 200px;
 }
