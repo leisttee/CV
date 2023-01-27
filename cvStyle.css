@@ -1,9 +1,27 @@
-
-
 .profilePic{
     border-radius: 50%;
     width: 15%;
-    height: auto;
+    position: relative;
+    margin-top: -7%;
+    z-index: 1;
+    float: none;
+}
+
+h1{
+color:  #66BFBF;
+margin: 50px auto 0 auto;
+font-size: 4rem;
+line-height: 2;
+}
+
+h2{
+    color:  #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3{
+    color: #11999E;
 }
 
 body{
@@ -13,33 +31,66 @@ body{
 }
 
 .top-container{
-background-color: rgb(148, 238, 233);
 position: relative;
-margin: 0 20%;
-padding-top: 5%;
+margin: 0 10%;
+padding: 15% 8%;
+background-color: rgb(48, 119, 151);
+border-radius: 30% 46% 30% 46%;
+z-index: 0;
 }
 
 .middle-container{
-
+    position: relative;
+    margin: 5% 0 150px 0;
 }
 
 .bottom-container{
-
+margin: 0 0 5% 0;
 }
 
 .cloud1{
-width: 100px;
+width: 250px;
 position: absolute;
-right: 40px;
-top: 50px;
+right: 13%;
+top: 21%;
 }
 
 .cloud2{
-width: 100px;
+width: 250px;
 position: absolute;
-left: 60px;
-bottom: 50px;}
+left: 10%;
+bottom: 5%;}
 
-.mountain{
-    width: 200px;
+
+img{
+    width: 20%; 
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.sql{
+    float: left;
+    margin: 30px;
+}
+
+
+.html{
+    float: left;
+    margin: 30px;
+}
+
+.contact-me{
+    margin-top: 10%
+}
+
+.curve{
+    border: solid;
+    margin: 10% 0 10% 0;
+    border-width: 0.05rem;
+    color: #11999e;
 }
