@@ -30,6 +30,12 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
+.about{
+    line-height: 2;
+    width: 90%;
+    margin: auto;
+}
+
 .top-container{
 position: relative;
 margin: 0 10%;
